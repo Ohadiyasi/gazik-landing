@@ -16,7 +16,7 @@
   <div class="announcement"><span>از دلِ کارخانه، مستقیم به خونه‌ت!</span><svg aria-hidden="true"><use href="#i-peanut"/></svg><span>کوچیکه، ولی کلی حالِ خوب توشه</span></div>
   <header class="header" id="home">
     <div class="header-inner container">
-      <a class="brand" href="#home" aria-label="گازیک، خانه"><span class="brand-wordmark" lang="en" dir="ltr">GAZIK</span><span class="brand-caption">کره بادام‌زمینی گازیک</span></a>
+      <a class="brand" href="#home" aria-label="گازیک، خانه"><img class="brand-logo" src="./assets/gazik-wordmark.svg" width="350" height="112" alt="GAZIK"><span class="brand-caption">کره بادام‌زمینی گازیک</span></a>
       <nav class="navigation" id="navigation" aria-label="منوی اصلی">
         <a href="#home" class="active" aria-current="page">خانه</a><a href="#journal">مجله</a><a href="#story">داستان ما</a><a href="#flavors">فروشگاه <span class="nav-soon">به‌زودی</span></a><a href="#contact">ارتباط با ما</a>
       </nav>
@@ -28,10 +28,18 @@
     <section class="hero container" aria-labelledby="hero-title">
       <div class="hero-copy">
         <div class="eyebrow"><span class="mini-flower">✳</span> خوشمزگی، از همین‌جا شروع می‌شه</div>
-        <h1 id="hero-title">یه قاشق<br><span class="happy">حالِ خوب<svg viewBox="0 0 310 24" aria-hidden="true"><path d="M8 15Q144-3 302 11M28 22Q150 5 276 19"/></svg></span><span class="exclamation">!</span></h1>
+        <h1 id="hero-title">یه قاشق<br><span class="hero-title-line"><span class="happy">حالِ خوب<svg viewBox="0 0 310 24" aria-hidden="true"><path d="M8 15Q144-3 302 11M28 22Q150 5 276 19"/></svg></span><span class="exclamation">!</span></span></h1>
         <p class="hero-description">بعضی خوشحالی‌ها توی یه شیشه جا می‌شن.<br>مثل کره بادوم‌زمینیِ گازیک؛ رفیق خوشمزه‌ی<br class="desktop-break"> صبحونه‌ها و میان‌وعده‌های تو.</p>
         <div class="hero-actions"><a class="button button-blue" href="#flavors">طعمِ خودتو پیدا کن <svg aria-hidden="true"><use href="#i-peanut"/></svg></a><a class="text-link" href="#story">ماجرا از کجا شروع شد؟</a></div>
         <div class="hero-note"><svg aria-hidden="true"><use href="#i-box"/></svg><span>از کارخانه به خانه، با یه دنیا عشق</span></div>
+        <div class="hero-tastes" aria-label="کشف طعم‌های گازیک">
+          <span class="taste-label">از کدوم شروع کنیم؟</span>
+          <div class="taste-options">
+            <button type="button" class="taste-chip taste-smooth" data-product="classic"><svg aria-hidden="true"><use href="#i-peanut"/></svg>نرم و یکدست</button>
+            <button type="button" class="taste-chip taste-crunchy" data-product="crunchy"><svg aria-hidden="true"><use href="#i-peanut"/></svg>پُر از تکه‌های بادوم</button>
+            <button type="button" class="taste-chip taste-choco" data-product="chocolate"><svg aria-hidden="true"><use href="#i-heart"/></svg>شکلاتی</button>
+          </div>
+        </div>
       </div>
       <div class="hero-art">
         <div class="hero-photo"><img src="./assets/gazik-hero.webp" width="1254" height="1254" alt="دو شیشه کره بادام‌زمینی گازیک با درهای زرد و لیبل‌های رنگی، کنار بادام‌زمینی و قاشق کره" fetchpriority="high"></div>
@@ -56,7 +64,7 @@
     <section class="journal section" id="journal" aria-labelledby="journal-title"><div class="container"><div class="section-heading"><div><div class="eyebrow">چند دقیقه با طعمِ بادوم</div><h2 id="journal-title">مجله‌ی گازیک</h2></div><span class="journal-note">ایده‌های کوچیک، لحظه‌های خوشمزه</span></div><div class="journal-grid"><article class="journal-card"><button type="button" class="article-art toast-art" data-article="toast" aria-label="خواندن مقاله سه ایده برای تست با گازیک"><span class="art-doodle">صبحو خوشمزه کن!</span><svg aria-hidden="true"><use href="#i-toast"/></svg><span class="art-star">✳</span></button><div class="article-meta"><span>صبحونه با گازیک</span><span>۲ دقیقه مطالعه</span></div><h3><button type="button" data-article="toast">سه ایده برای یه تستِ فراموش‌نشدنی</button></h3><p>نون تست، یه شیشه گازیک و کمی خلاقیت.</p></article><article class="journal-card"><button type="button" class="article-art bowl-art" data-article="bowl" aria-label="خواندن مقاله کاسه صبحانه"><span class="art-doodle">یه کاسه رنگ و حال خوب</span><svg aria-hidden="true"><use href="#i-bowl"/></svg><span class="art-star">✳</span></button><div class="article-meta"><span>ایده‌های خوشمزه</span><span>۳ دقیقه مطالعه</span></div><h3><button type="button" data-article="bowl">با گازیک به صبحونه‌ت طعم بده</button></h3><p>جو دوسر و میوه، با یه رفیق تازه.</p></article><article class="journal-card"><button type="button" class="article-art cookie-art" data-article="cookie" aria-label="خواندن مقاله کوکی بادام‌زمینی"><span class="art-doodle">عطرِ خوشِ خونه</span><svg aria-hidden="true"><use href="#i-cookie"/></svg><span class="art-star">✳</span></button><div class="article-meta"><span>آشپزخونه‌ی گازیک</span><span>۳ دقیقه مطالعه</span></div><h3><button type="button" data-article="cookie">یه عصرِ آروم با کوکی بادام‌زمینی</button></h3><p>بهونه‌ای برای روشن کردن فر و دم کردن چای.</p></article></div></div></section>
     <section class="contact-section container" id="contact" aria-labelledby="contact-title"><div><div class="eyebrow">درِ خونه‌ی گازیک همیشه بازه</div><h2 id="contact-title">یه گپِ <span>خوشمزه؟</span></h2><p>یه پیشنهاد خوشمزه داری یا می‌خوای بیشتر با ما آشنا بشی؟</p></div><button type="button" class="button button-cream" id="contact-button">ارتباط با گازیک <svg aria-hidden="true"><use href="#i-chat"/></svg></button><span class="contact-flower" aria-hidden="true">✳</span></section>
   </main>
-  <footer class="footer container"><div class="footer-top"><a class="brand" href="#home"><span class="brand-wordmark" lang="en" dir="ltr">GAZIK</span><span class="brand-caption">کره بادام‌زمینی گازیک</span></a><p>یه بادوم کوچیک، یه دنیای خوشمزه.</p><a class="back-top" href="#home">برگردیم بالا <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><span>با عشق، از گازیک به خانه‌ی شما</span><span>نسخه‌ی نمایشی · فروشگاه به‌زودی</span><span lang="en" dir="ltr">SPREAD THE GOOD MOOD.</span></div></footer>
+  <footer class="footer container"><div class="footer-top"><a class="brand" href="#home"><img class="brand-logo" src="./assets/gazik-wordmark.svg" width="350" height="112" alt="GAZIK"><span class="brand-caption">کره بادام‌زمینی گازیک</span></a><p>یه بادوم کوچیک، یه دنیای خوشمزه.</p><a class="back-top" href="#home">برگردیم بالا <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><span>با عشق، از گازیک به خانه‌ی شما</span><span>نسخه‌ی نمایشی · فروشگاه به‌زودی</span><span lang="en" dir="ltr">SPREAD THE GOOD MOOD.</span></div></footer>
   <dialog id="detail-dialog" aria-labelledby="dialog-title"><button class="dialog-close icon-button" type="button" aria-label="بستن پنجره">×</button><div id="dialog-content"></div></dialog>
   <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
     <symbol id="i-peanut" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M38 7c-9-3-18 2-18 11 0 7 2 8-4 13C2 43 11 60 25 57c9-2 9-10 15-13 7-3 14-5 15-15C57 18 49 8 38 7Z"/><path d="m26 13 20 25M18 36l12 15M29 10l20 23M13 43l11 11M22 23l23-7M21 32l31-9M13 42l30-7M15 50l18-8"/></g></symbol>

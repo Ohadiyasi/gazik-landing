@@ -12,7 +12,7 @@
 
 ## Vector artwork and wordmark
 
-The product SVGs and HTML/CSS wordmark were redrawn with GAZIK lettering, yellow lids, black brand bands and blue/green/red/cream label blocks inspired by the reference. They are editable concepts, not official logo artwork. The peanut character and inline icons are original project illustrations.
+The product SVGs use GAZIK lettering, yellow lids, black brand bands and blue/green/red/cream label blocks inspired by the reference. They are editable concepts. The website wordmark (`assets/gazik-wordmark.svg`) is an original custom path drawing, independent of installed fonts: rounded forward-leaning letterforms, a peanut-shaped A counter, a red peanut accent over I, and a golden underline. Header and footer share this asset. The product label concepts retain their reference-inspired typography. The peanut character and inline icons are original project illustrations.
 
 ## Typography
 

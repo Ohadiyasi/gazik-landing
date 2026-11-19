@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 112" fill="none">
+  <title>GAZIK</title>
+  <desc>Custom rounded GAZIK lettering with a peanut-shaped counter, a red peanut accent and a golden butter-like underline.</desc>
+  <defs>
+    <g id="letters" fill-rule="evenodd">
+      <path d="M71 31C63 22 53 18 39 18 17 18 4 33 4 55 4 78 18 91 40 91 54 91 65 87 73 79V51H40V66H55V73C51 75 47 76 42 76 30 76 23 68 23 55 23 42 30 34 41 34 49 34 55 37 60 42Z"/>
+      <path d="M80 88 105 27Q108 19 117 19H126Q134 19 137 28L157 88H135L131 74H105L100 88ZM112 58C110 55 113 51 116 48 118 45 117 40 121 39 125 38 127 43 125 47 124 51 128 54 126 58 124 62 116 62 112 58Z"/>
+      <path d="M165 20H222V33Q222 37 219 40L184 72H221V88H158V75Q158 71 162 67L195 36H165Z"/>
+      <path d="M231 35H250L247 88H226Z"/>
+      <path d="M263 20H283L281 46 304 20H330L297 53 326 88H301L279 60 278 88H257Z"/>
+    </g>
+  </defs>
+  <path d="M17 99Q163 87 327 97Q334 98 330 101 192 99 48 109Q22 110 17 99Z" fill="#E7B53E"/>
+  <g transform="matrix(1 0 -.09 1 8 0)">
+    <use href="#letters" transform="translate(2 3)" fill="#E7B53E"/>
+    <use href="#letters" fill="#303E9C"/>
+    <path d="M235 6C228 7 227 13 231 17 225 24 232 32 238 29 243 27 242 23 247 20 254 15 250 6 244 7 241 8 240 5 235 6Z" fill="#EF4545"/>
+    <path d="m235 13 8 9m-9 2 10-12" stroke="#FFF5DE" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <path d="m337 43 7-5m-8 15 9 1" stroke="#27854B" stroke-width="4" stroke-linecap="round"/>
+</svg>
