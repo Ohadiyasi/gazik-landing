@@ -1,20 +1,21 @@
-# Asset provenance
+# GAZIK asset provenance
 
 ## Hero image
 
-- Runtime asset: `assets/hero-peanut-butter.webp` (1254 × 1254; optimized WebP).
-- Source: generated for this project with the built-in Imagegen tool. The original local PNG is retained but ignored by Git; the site only uses WebP.
-- The packaging is a design concept, not a photograph of an existing manufactured product.
+- Runtime asset: `assets/gazik-hero.webp` (1254 × 1254; optimized WebP).
+- Created with the built-in Imagegen tool, using the user's photograph solely as brand inspiration. The supplied photograph is not copied into or served by the website.
+- This is a new studio composition with yellow lids, multicolored labels and the GAZIK wordmark. It is a concept visualization, not a verified photograph of manufactured packaging.
+- Superseded concept imagery is kept locally under ignored `artifacts/archive/`, outside the tracked deployment assets.
 - Final prompt:
 
-> Use case: product-mockup. Asset type: hero image for an Iranian playful premium peanut butter landing page. A stunning photorealistic editorial product photography composition, square image, warm flat cream white background #FFF5DE and tabletop. Two realistic cylindrical glass peanut butter jars filled with golden tan peanut butter, colorful bold wraparound labels: main large jar with royal blue #303E9C label and matching royal blue ribbed lid at center right, slightly tilted 10 degrees clockwise; second smaller jar behind left with forest green #27854B label and green lid. Cream playful retro typographic label text exactly 'FATI' on first line and 'BADOOMI' second line, 'PEANUT BUTTER' small beneath, minimalist peanut illustration. Several realistic unshelled peanuts and split kernels scattered near bottom, one half peanut shell in foreground. Studio sunlight from upper left, dimensional rich shadows falling right, appetizing premium tactile food photography. Composition fills 85% of square, room at top and edges, large front jar prominent. No extra captions or graphics outside labels, no hands, no watermarks, no nutrition or health claims. Brand palette blue, green, golden yellow, cream, beige. Make the jars and typography beautifully art-directed and realistic.
+> Use case: product-mockup. Create a completely NEW square premium studio photograph for the GAZIK peanut butter website. The attached photo is a BRAND INSPIRATION REFERENCE ONLY: draw inspiration from its yellow jar lids, blue/green/red/cream vertical label stripes, black horizontal brand band and bold golden 'GAZIK' wordmark. DO NOT reproduce the uploaded photograph, person, kitchen, arrangement, table, basket or background. New scene: two cylindrical clear jars filled with appetizing golden tan peanut butter on a seamless warm cream #FFF5DE studio tabletop/background, main large jar prominently at center-right slightly tilted clockwise, smaller jar behind at left. Both jars have golden yellow #E7B53E ribbed screw lids. Labels feature vertical blocks of royal blue #303E9C, forest green #27854B, vibrant red #EF4545 and cream #FFF5DE. Across the center a deep black #151515 horizontal band displays precisely 'GAZIK' in bold uppercase golden yellow sans-serif typography. Below, small 'PEANUT BUTTER' and 'SMOOTH' on main jar and 'CRUNCHY' on back jar. These are design concept packages inspired by the reference, not a literal reproduction. Add a few whole peanuts and split kernels on tabletop, one small wooden spoon with a swirl of peanut butter near bottom. Beautiful directional studio light from upper left, rich dimensional shadows, extremely realistic packaging materials and appetizing texture, refined editorial product photography. Balanced tight composition with 10 percent margin around jars, suitable for an arch-shaped hero crop. No other brand names, no person, no hands, no health claims, no watermarks, no text outside packaging.
 
-## Vector artwork
+## Vector artwork and wordmark
 
-The jar illustrations, peanut character, favicon and inline icons were created directly as SVG for this project. They are editable source assets and require no external services.
+The product SVGs and HTML/CSS wordmark were redrawn with GAZIK lettering, yellow lids, black brand bands and blue/green/red/cream label blocks inspired by the reference. They are editable concepts, not official logo artwork. The peanut character and inline icons are original project illustrations.
 
 ## Typography
 
-Vazirmatn variable font by Saber Rastikerdar and contributors, distributed under the SIL Open Font License 1.1. Both the font and its license are bundled locally in `assets/fonts/`.
+Vazirmatn variable font by Saber Rastikerdar and contributors, under the SIL Open Font License 1.1. The font and license are bundled in `assets/fonts/`.
 
 Source: https://github.com/rastikerdar/vazirmatn
